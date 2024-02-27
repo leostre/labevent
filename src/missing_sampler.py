@@ -43,9 +43,11 @@ class BaseMissingSampler:
     def _generate_mask(self):
         raise NotImplementedError
 
-    def drop(self, inplace=False):
+    def drop(self, add_indicator=False):
         self._generate_mask()
         self._data.loc[:, self.target_cols] = self._data[self.target_cols].where(self._mask, np.nan)
+        if add_indicator:
+            self._data.loc[:, 'how_many_missing'] = self._mask.isna().sum(1)
         return self
 
     def save(self, path):
