@@ -5,6 +5,7 @@ from pandas import DataFrame
 from fp import FeaturePropagation
 from tqdm import tqdm
 from torch import tensor 
+from sklearn.preprocessing import RobustScaler
 
 class Pipeline:    
     def __init__(self) -> None:
@@ -47,3 +48,19 @@ class Pipeline:
             loss = self._loss_func(imputed[mask], data[mask]).item()
             losses.append(loss)
         return losses
+    
+class Preprocessor():
+    def __init__(self, sampler,
+                 initializer,
+                 scale=True):
+        super().__init__()
+        self._scaler = RobustScaler() if scale else None
+        self._sampler = sampler #UniformMissing(droprate, target_columns, data_columns=data_columns)
+        self._initializer = initializer
+
+    def run(self, data, graph_repr='edgelist'):
+        dropped = self._sampler.drop(data, 0)
+        mask = self._sampler.to_tensor()
+        dropped = self._scaler.fit_transform(dropped) if self._scaler else dropped
+        struct = getattr(self._initializer(dropped), graph_repr)
+        return dropped, struct, mask
