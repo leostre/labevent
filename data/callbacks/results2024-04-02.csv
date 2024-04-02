@@ -1,0 +1,771 @@
+,type,sampler,initer,imputer,Potassium,Sodium,Creatinine,Chloride,Urea Nitrogen,Bicarbonate,Anion Gap,Glucose,Magnesium,"Calcium, Total",Phosphate
+1,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.7091509033777914,32.38931153983437,0.3282494165926951,9.145455403886151,0.32170873760661917,1.3933612759621439,0.6564218715716279,0.6824565956368118,2.5766955046856497,4.951477211318054,0.5490624646580298
+2,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.3017522416166564,7.90956095229532,0.2269716041733372,2.4127674536884305,0.11853406063749578,0.1952517503333469,0.1464598147793202,0.09926189868551172,0.27583587791278,0.8459617512494646,0.11059086011706208
+3,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.646985666394803,38.974545053206455,0.38139540823409407,9.893252698047224,0.15136775361912447,1.3022766001870782,0.7545533163605774,0.47200705680389676,3.1473114542872707,5.7662928608063035,0.797770843794946
+4,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.378925293007716,9.385302253746925,0.3118411262021863,3.1810224078086566,0.08070198544196804,0.432722270305929,0.1071368180883403,0.05398133986928716,0.26195806505936275,0.6647542879648217,0.22183541377454682
+5,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",2.7976499471975123,31.038321438847312,0.3592690719047356,12.782582401945557,0.18745485231320755,1.2408590841103968,0.712907284723664,0.6231929583601831,2.9674338161361904,5.693450768935517,0.6833824179496772
+6,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.44724766422782847,5.8449022986427,0.24725868567116982,2.0055156807385277,0.10927335739185183,0.18555118309682422,0.24698938799341041,0.23467650957885128,0.6966911351214302,0.4731706899409477,0.16092009439666688
+7,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.7231243306903403,40.49345687439634,0.4079072041643131,9.768272748013452,0.32124920954678127,1.186938929356003,0.6981809003532926,0.5337553135729167,2.3179041767577684,4.8235481906341855,0.5878725035690969
+8,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.5025688998804859,8.865926473602915,0.15509137201002843,3.264991853337537,0.15279335509086564,0.5550874801966914,0.14027258759665084,0.21278551775704688,0.46693356443988476,1.379414349304647,0.3153186372378997
+9,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.956287788793676,41.22114852657327,0.3855282848173648,11.306999285744359,0.21340812681348081,1.3971015162590086,0.8485449558504028,0.553196335829056,2.4058260579905317,5.346738074175604,0.5767354644481679
+10,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.8580498811154743,8.910615781625548,0.1076029002106512,1.422447618208844,0.12017731116205829,0.17854947372106203,0.1866779228538456,0.20568856502313915,0.5753946796690579,1.200104951565675,0.2028285556015785
+11,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.6882580805727345,40.49264931327457,0.3125430382604899,10.80696515124556,0.18111639186364809,1.343045693310105,0.7648742847574407,0.7054861981900886,2.649426752364783,5.897309327296374,0.5630314200841458
+12,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.42770980623897903,4.406680767915771,0.1512715399320837,1.34255055902461,0.1228475283720113,0.5250007580419773,0.11860470571218755,0.3233542963278055,0.7062959156463342,1.3237771021060603,0.19953385312281885
+13,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.69133546350634,39.265931790490114,0.3413306461112099,10.759498813297133,0.2578935262804367,1.3862563997988473,0.8474242709810687,0.44944652094076193,2.544473870857408,5.927027652268525,0.7235795564285834
+14,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.5171900734945053,9.531738677533658,0.26644985032025315,1.4583635210275527,0.09657443613601407,0.22859533126377823,0.3004744319988089,0.2094838818083992,0.724684844671909,1.0942440849756436,0.22805342179954002
+15,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",2.5465726255492926,39.89187082866109,0.369424237835336,10.324331406404411,0.2111848907804807,1.3732411640257975,0.8370768969718234,0.46047569648618464,2.793052196288007,5.94564255382771,0.38848652134627215
+16,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.5583022157247945,5.336296070011952,0.2669393397913702,2.2865820104312102,0.07836390962503773,0.446470214110364,0.07400233999122487,0.15501446360985466,0.6659751358077349,0.8898657665469317,0.07907972984821318
+17,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.840820618681419,40.413076627243655,0.39323282887119265,10.739734483887286,0.25678147181035016,1.640538534221808,0.617043314546025,0.4922246933830164,2.5656534244246396,5.744444863472819,0.6719060955688247
+18,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.8064998671786765,8.943165942299519,0.1603744945344245,1.7262173838860582,0.09153666851655522,0.4761379117075448,0.08655138137734815,0.1239878330820852,0.44336871690664237,1.750155860765978,0.08426276371168412
+19,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",3.025357023322337,38.27008806569992,0.46913306785699554,10.081464454440374,0.27181683047330535,1.3742676048727156,0.6827763823273116,0.5770155741817293,2.5888511416484534,6.423143643312274,0.5646289041970354
+20,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.39628810290107086,5.204233272796757,0.17987608629501278,2.0239678568593145,0.17573413367327964,0.16650881659603614,0.12160896113992957,0.13146424670019205,0.5964060178200496,0.7086794334559813,0.1678223559640197
+21,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.3688721310938723,37.00492417656223,0.4533950504987552,9.767287824335266,0.241454738002335,1.559122363612698,0.7511861984314772,0.6068216382856011,2.4499777319124645,5.712654037117147,0.5505014858765408
+22,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.437047736660615,10.87101836366243,0.4365866876676514,1.675250263291413,0.058173328304977144,0.38861943652939557,0.29095398732735306,0.1796078789372716,0.711856364069303,1.182156655065719,0.23259124980474338
+23,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.9457705401404026,42.29943550817293,0.4274375460121297,11.690223050575701,0.3618817514792501,1.466247347405525,0.5679250811654344,0.7148138703534571,2.641021897181397,7.2074758533275185,0.8753249600462599
+24,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.7630466886561545,6.4697611572283416,0.25866261457789336,1.8904060466266952,0.23293691434180983,0.09970831159153792,0.07703418397044598,0.2521344078839487,0.8039789849721087,1.1822274525819396,0.197899688162996
+25,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",2.793595231628186,39.30818602747321,0.45645780627345933,10.745421257839487,0.219035775782293,1.4973061170218407,0.6446202754186572,0.7880865696056241,2.3157589654731345,6.3120572940850845,0.5498867182456728
+26,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.7755079456593764,6.665155731976082,0.14839190798702892,2.404041498047016,0.13357789345833662,0.4245709381149087,0.04315673235801879,0.5416330184128094,0.458382425959947,1.5217085668889767,0.13517437678970862
+27,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.7468933806875517,44.05919032980259,0.41422919659253027,11.75924398921963,0.32692031621735107,1.3406475955636445,0.6073289726455142,0.5946872826232055,2.8609834644289824,6.718143131242401,0.513622795869267
+28,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.3260489506630097,6.790073625059083,0.18210894404393219,2.6163278205008798,0.14049386222167534,0.45871548005076884,0.15880013388088665,0.17104829524880513,1.0118541450002116,1.0397773098878451,0.18580129467233494
+29,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.8224532726267655,38.9257001532287,0.30865001672657116,8.84062014297512,0.2557043114691909,1.115913866327203,0.6628045944524766,0.6328670113780032,2.5526623977873983,5.765995473327143,0.44443089972023414
+30,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.5878139425911184,11.147993377896045,0.09705723320308633,2.664465379772629,0.07192119499871089,0.33184729412303215,0.17478552433462255,0.11149693494158201,0.27326773447307096,0.840613902093734,0.10624341000825856
+31,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.5796587784695144,39.10451562284578,0.35916866731928987,8.622345456112068,0.15659966530272845,1.344107447620568,0.6664911491428734,0.4854080428116398,2.4675632962449545,5.983218680362745,0.5516385561938735
+32,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.7175452940320914,5.550500078322329,0.3022935595163617,1.3649628002088081,0.04365656396604307,0.4390698692591031,0.1717078808339744,0.11291072122604708,0.3906476617199871,1.0373874096346196,0.18312968444620303
+33,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.7739153584458505,33.1979276631688,0.30860171720171325,9.525906327286226,0.37664191471174313,1.299214474831283,0.6420609816419296,0.5740898469462947,2.7584377347052893,6.28798147465897,0.5234834500921404
+34,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.10648250537747785,9.561960058515526,0.06917955740112663,1.9922743084913541,0.22059711229664636,0.20419559721097344,0.1159091076854748,0.24082773143946068,0.22647987395619884,1.8482223494289267,0.0865543855036786
+35,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",3.072021124052193,32.60338487606143,0.36769906000194863,10.864344051218835,0.2315632395683212,1.7584864480576763,0.5920814532387694,0.6228118352017916,2.36258824465748,6.657232515938094,0.5869107350169674
+36,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.8586526393976993,11.41578534257523,0.22129537941246075,3.075967768946845,0.07121976392804402,0.5503159128121637,0.09833597614683377,0.2721916781999903,0.5607028697363786,1.5283698483516646,0.14710106275596346
+37,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.0888118764928327,36.868919011729325,0.3038043861369478,12.868048085228827,0.239298030726939,1.3517701964499556,0.771201586411243,0.6907299194715656,2.693835373916444,5.591811924044623,0.6420388919864413
+38,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.7086633221877007,9.154453445592443,0.15627336617017887,1.2359552993294305,0.12998282385553153,0.3599691663347428,0.25449541498005795,0.4155480577276251,0.5113602887100925,0.9951709896739005,0.18781640030894758
+39,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.909676286423619,36.709186742203364,0.29829790263486605,9.573718784138709,0.1987454330591095,1.4624878596039892,0.5517997277020746,0.536629699080951,2.4794054613969476,5.959453362804609,0.699785927742959
+40,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.5470837258579018,8.995541254259523,0.1565958150524962,2.9241604700667345,0.08206425803258298,0.24654120290505122,0.13950759594916748,0.08624922580237566,0.34631405303582496,1.866414339063615,0.304777195223817
+41,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",3.084878156707869,33.869453434890914,14.264957409917418,15.248215528739877,3.2040078500262696,1.9381231596110138,0.8735407697443532,1.9650990079565394,5.318700799972033,9.134109906545756,1.0899523205245325
+42,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",1.5970199594131014,25.35104406244634,4.180812986658411,10.444602227586739,1.2705908475313556,0.7054185491811206,0.11443090066783532,0.3528649734729625,1.5936929969449902,4.791354442288692,0.07797208603119321
+43,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",8.78635265399151,125.78963769241409,7.854578241560304,40.318637020716864,3.1992376037720134,4.445831873457519,1.563841843050191,1.7370802617333971,13.575494123391035,21.17691239948681,1.1207632193454722
+44,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 2}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",5.770997516649722,26.81629119101768,5.8081454801109125,9.153857942257037,0.6701784832920777,2.5604043914770065,0.9192716979479774,0.7928760044137257,4.905182765809422,8.031631570079407,0.1540122377329951
+45,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",14.847033165346451,402.4163289120474,8.750026277603732,108.16628446705415,17.38488323802452,12.010152384621282,4.08783807656855,1.4961821756936438,22.14480957727689,50.3500714422158,6.138121112934984
+46,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",4.993357136006952,86.03154311062585,2.5410847223128177,14.448736592679891,10.381958459442933,3.7958473727791975,2.527948979887703,0.8004797567799515,5.030223663899162,12.77117825133009,6.240513681322496
+47,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",17.491245225352706,512.131989186287,4.50549928837478,94.78866028378076,4.7788167094087335,7.386531709890271,42.838278532502,1.406099346921294,15.094906048027974,33.30654936895068,8.943257318952528
+48,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 4}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",3.4975023878954037,173.38244321316395,3.5087469711074557,42.82154855204057,2.534891532007553,4.848838488565075,46.46437793774763,0.17208944239248286,5.406765398088161,17.637131713471906,4.838221753628498
+49,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",17.741543233636953,283.85340570884625,3.0512989255573366,40.285992575615445,3.6914822827371454,53.83325964417681,304.63141198762435,1.5649243988320936,8.890148334978912,24.06419748469648,72.50582323827909
+50,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",6.521449640411506,73.5213653994571,0.5543603985892583,13.675838519470178,0.6141157223008213,62.37695662555616,44.338662892483214,0.4117241933561221,2.1086587982984115,8.044723924622682,24.802656375928535
+51,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",14.400920276077702,237.19071981174415,3.0890321302397092,32.27912194509869,4.234983775049189,65.83160986445776,299.07617639803846,1.6315309611117736,8.025459991196836,38.011439388003744,56.353178318638776
+52,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 5}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",6.683739678727342,66.28747170166255,0.8543024057589199,12.590421802093658,0.7683267240540573,36.19065903654514,51.686986532205566,0.5677907690813204,3.5861142039834033,29.760171522335124,19.740870191630705
+53,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",15.973923544497286,249.48687486484133,6.704513514143558,51.709270118779884,10.048212300859394,158.46484593663166,777.3935396921653,1.9119706796299714,16.19056966126204,119.12227713301897,65.29581780757488
+54,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",6.753585649148618,136.806469184739,2.605176141659212,24.51352338953336,2.8139495984980702,74.4886931034329,281.1675783936534,0.6124960611647539,8.998389771913896,74.45348726408334,36.635976839708675
+55,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",13.58840954996742,214.70307600376128,3.628618244084477,158.51994328117308,7.430900484324783,114.59416626398043,375.6999206855936,2.005180112769417,8.724249036874493,83.85031275568161,34.18258906154084
+56,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'n_neighbors': 8}, 'KNNInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",5.552699614057644,150.18774036802148,0.8709499065152895,191.265288513685,1.4091073599814807,169.04292368480134,129.82780857776848,0.3870851354352851,4.79602556994914,99.33082929509605,45.57793333954117
+57,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.468558070185347,35.55580724899525,0.31911108061796745,10.800702851406756,0.2791309749766297,1.1512796893236703,0.7482248267487801,0.7537829027331453,2.686930695567619,5.819979862997203,0.4862554155678177
+58,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.502492051331177,7.004746385289969,0.11251624912836884,1.9851827398252635,0.19333104941886298,0.21303236879399085,0.16083130159754463,0.20126583676270954,0.455128777644546,0.7006898237680403,0.16701512747635325
+59,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.918908179930033,48.41826964043994,0.22735836486719802,12.029769483667053,0.3539619269586013,1.2484371366301006,0.5989671120942599,0.5727892095235131,2.0273522777835353,6.542861058938051,0.5424232636803284
+60,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.8028092519103495,9.779631145180328,0.1234776692139881,1.9755823821654224,0.24546780411401364,0.21150225069934098,0.13233643690905414,0.12900991527124656,0.3883596152177585,1.0148190486232964,0.09962747949631179
+61,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 2}, 'FeaturePropagation')",2.962852527106149,44.260455757005985,0.35393086751856895,10.359631403545736,0.13454871509177027,1.4500843472124882,0.6845402159342845,0.64624184967047,3.0960203262511974,6.170463082105238,0.6073973363434002
+62,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.690792690306977,9.997941038725308,0.1782755780953324,2.0023678070610433,0.043643095468690746,0.48571642528789116,0.2085193432634429,0.13347896779470705,0.7371758225742648,1.9412488193703066,0.12215525817699578
+63,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.6617308644268105,36.6952062565473,0.593226467884434,9.50061074792483,0.2850759591326777,1.2514192792355558,0.6486195895714614,0.6148253580834775,3.0994962706081353,5.603489716998944,0.48082445934925067
+64,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.16610828471754968,4.964629065535287,0.2923690291290057,0.6738265101158,0.0806151303811346,0.502185051514012,0.12934879850457626,0.23210079724510516,0.6506785510643814,0.9448735057527871,0.059027973820593244
+65,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.3342455375354443,37.4099955027513,0.4097110829074957,9.969591007070077,0.2417857091314505,1.3988740977423244,0.8172618705670531,0.5788035036270249,2.730030241225646,5.6469119079775,0.6213348651907853
+66,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.5665485069556524,10.796858061258071,0.19306546121894322,2.154241281365175,0.1548440428753251,0.3874229118752753,0.4231399370622171,0.19694252057612574,0.27074887898584427,0.9218600461601708,0.22878618841921547
+67,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.9604876336802177,38.27685898452743,0.27552998569735715,11.998746225335053,0.20132051796610587,1.501826904942242,0.7735635843632342,0.7484630149153514,2.641578407873553,5.9026128028333975,0.6593958058544882
+68,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.3377386347044837,7.0469569647622805,0.1341361264251921,3.27662377665225,0.03934909919170178,0.45132065141307465,0.11933498981903881,0.3181614174072572,0.2732571248080041,1.2633434120096463,0.2810172097040315
+69,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.6232464159930324,42.268967717467845,0.32897675754507943,9.365873813390632,0.23655076101443773,1.1595615655568845,0.6832388235096116,0.7644122410875898,2.6981947183935833,6.943181206835632,0.486550543568499
+70,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.5455856697832654,7.183213726149785,0.17555839690688363,2.5827450960844605,0.11905321950187599,0.2868976656998231,0.18751555774704595,0.2297845596257912,0.44768284380024415,1.4335330129585602,0.12151161656804718
+71,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 2}, 'FeaturePropagation')",3.1250958863945444,40.45136946348616,0.3241815328541485,8.608602894236244,0.40072958193286345,1.534144173773397,0.6850398208583324,0.7426430854524705,2.541574055803827,5.142784888952854,0.5880235530186593
+72,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.44193718462283116,14.384077092241476,0.13274240029064718,1.985681182350673,0.19438014971939374,0.37907347278444375,0.25040790721881606,0.47853407424440236,0.36846186279245685,0.7574055432723444,0.09920228497054771
+73,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.6625314001801943,41.654126741624644,0.3688998883892589,9.396811044548729,0.18389349454525775,1.475399251816576,0.8438663105253159,0.5994845860983582,2.6309505353724423,6.352799079205086,0.5054974510475786
+74,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 4}, 'FeaturePropagation')",1.0930529375538607,9.370309395750981,0.09944412594147617,2.8907661385737313,0.12281248526462804,0.2642483876373373,0.2319042192352948,0.13984573781852597,0.41311792735479047,2.058826107342792,0.2367833289330985
+75,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 8}, 'FeaturePropagation')",3.3056335047309617,37.34577034247756,0.3802599665071928,11.276558033772428,0.23129619175455102,1.1739697377249851,0.6365639418830243,0.5935710332146157,3.0712352999226433,6.0361152077832125,0.7026109280931544
+76,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.5039381090573668,6.888864118899155,0.07405894327375892,1.5398166243344606,0.08972335080751632,0.2954839096554392,0.10078325907958491,0.1418996663852155,1.354133150173193,1.456986606559884,0.22819155342577394
+77,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",1.049443444209273,6.21840726882161,1.7941967209216962,1.777535263355405,1.37602660247232,1.0125522604769395,9.00287433489747,1.029258772085188,1.1371115193727168,1.1982521706917946,0.916479071006534
+78,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.05168331191779613,1.9505142874041046,0.40675873545826263,0.3823977797244651,0.21096102557255741,0.49395521725901437,2.6027809700299502,0.23056381467511528,0.578764015574503,0.12520928130071732,0.3230479279482038
+79,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",1.0018395797907194,178.87774141765973,1.952482423210348,61.904727024294175,1.3693715385376006,0.6921367747540481,21.997283538445252,1.658710538794186,10.687328194342966,7.5050098713925975,0.9166530791097252
+80,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.1}, 'EpsilonRadiusInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.06643166857509294,223.00416241388623,0.36319329822418733,75.33008691380448,0.39467050490035804,0.08599701336501123,17.86297751633303,0.5597676512045523,12.536346079064684,7.386468398307166,0.16945432710677893
+81,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.9576322829743626,261.67844343619447,2.2130052977606653,88.11767956033862,1.4640874355085836,0.6946134069004751,26.669582661363016,1.694370044099739,21.560361382864652,11.253700642577986,1.3189477515309478
+82,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.0983448111660008,149.2787357729099,0.28622481600501976,29.481243268699693,0.5975191934620414,0.14485404786853362,12.73030776286225,0.6788841776314192,14.066118263508447,10.75123149615137,0.15349945843674506
+83,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.8703249365924174,39.41459750594812,2.0628842563629144,18.569051566789096,1.4550268890627212,0.7426796665114799,6.3105828116995974,1.384163171738738,3.9969210708213225,1.7415675719765904,1.069818781237948
+84,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'radius': 0.5}, 'EpsilonRadiusInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.13913446207800753,43.40807230816723,0.32849135231947063,18.29311316101604,0.44073283695742443,0.10718976761014196,3.2634953609860267,0.3999017175571428,2.829366871148416,1.0554548547434315,0.3498169593078732
+85,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.5220295535259085,33.29906511804197,0.36508428332920373,10.79188741951363,0.2618372354515686,1.3022894835197123,0.6353059480151089,0.7308076538516205,2.835939709252305,5.563989462336158,0.5650031400104526
+86,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.7827519859054636,8.718982616427732,0.13318366721200517,2.3188308759066953,0.09142843916984761,0.5219830870761165,0.1323748059709188,0.19358879064784762,1.039720696238851,1.001117312944228,0.11012700616990219
+87,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.757034756766928,33.92096430766351,0.31332445154176713,11.488225168355912,0.22872695150629402,1.4682519231591589,0.7381315404681713,0.644130471810269,2.631990463776127,6.042488781979892,0.5977996704479764
+88,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.41513086703037905,7.80940258902744,0.16912884732684802,2.2728691424721967,0.13922299819921077,0.24265170584544785,0.23552596046820543,0.1596593204449404,0.8038340486499921,0.684812844412363,0.1184712049187474
+89,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",3.1860053897456098,37.59078190697573,0.5292585448978668,10.746099818768887,0.2541155922537457,1.269066030424368,0.674602189206329,0.6771617707495046,2.726061939841305,5.5108770349039755,0.5890195671695999
+90,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.830987892996109,4.350576992736299,0.256218059961643,1.780641487159229,0.07739124160078656,0.17034895267799932,0.2264810878500692,0.19448668530729943,0.6581460664610074,1.241674600004375,0.30321571140008174
+91,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.650302711353489,38.926615793402426,0.3447045709028084,10.862487625889793,0.18708262701533407,1.366900927910495,0.7596512892261152,0.6725045341667963,2.9670546133661935,5.852266652192858,0.5241438413402285
+92,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.6185970242803658,7.7891891316513435,0.22619549527790858,1.332288876036129,0.10391137668777484,0.25258147807915404,0.21000485689298035,0.12101537593542018,0.40722353695153657,1.7431606576942018,0.12111515586997791
+93,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.9071686403772783,36.334609892872656,0.48050007950830215,9.383763676351288,0.24430185160980294,1.2221654819475143,0.619581938280878,0.6357388323462276,2.783163375544948,5.969258568721143,0.6206025082529528
+94,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.7432919924316843,10.49121097010063,0.1969914224838184,1.0765395367757653,0.14573833302101608,0.3670727631630616,0.1312526487072361,0.2608737955866239,0.6271684248707572,0.5766685503265538,0.19953893150140423
+95,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.8101359434503124,36.995284828713686,0.3599434653616845,10.921323718359371,0.21248007262717045,1.3111643143230434,0.6682267400760076,0.6063830267203153,2.2932282616292943,4.85234025116294,0.6196050058774439
+96,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.5452831107417946,7.926685949945402,0.11932086156555612,1.572975834682306,0.09014118210167942,0.33106745133014986,0.18560812414202293,0.19142611686618072,0.2507995066553436,0.9347348785550468,0.2234781976946333
+97,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.5245846889630217,43.40359630960688,0.39881413148366385,9.55979301525824,0.2324358521265793,1.5116499446866887,0.7283755487913501,0.4709420006133714,2.915690035467961,6.474731906738333,0.6168957512022449
+98,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.7412691009255331,11.136534869393524,0.11399538848125068,1.8140605091166717,0.10929808380219101,0.17728938310057807,0.2076586493338983,0.09556106782930918,0.7926493051705121,2.071221280483935,0.026726579764419056
+99,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",2.6230250747085635,43.625615657975274,0.4182181592052789,11.388876122387945,0.24426468159127177,1.3628310577156122,0.6780488873063641,0.6073009621387833,2.75148660530347,6.253831684687503,0.5771623333871589
+100,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.31091561656268946,5.46323281785905,0.3008021657728091,2.5737567940271564,0.12677425191130942,0.3911042079337805,0.1775307490666231,0.13790594091861025,0.6246035342917617,1.0751724843427894,0.21446405742631988
+101,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",3.1788212734110908,33.622063578542665,0.3095783765969083,9.569790308617034,0.16877879376190913,1.400305488796946,0.6597594818426219,0.6905027685978545,3.019664179398439,6.649183158647477,0.6447941894503882
+102,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.9619216160411848,7.936911946957726,0.16095041648661298,1.029812931427088,0.09624123711289143,0.3714093452416777,0.17447848531498555,0.3982275577625577,0.5535354395831656,1.2508617421581825,0.2508719748347932
+103,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.6440566241413497,39.2317199930481,0.2922294947490012,9.474374482718334,0.2216480126272601,1.3280762928181757,0.6234707486552465,0.6474430056762437,2.707657037096522,6.39855941960004,0.6047727553164567
+104,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.4473906985011129,8.976783620866982,0.1422887177164203,1.2660119271486008,0.16150753241578905,0.21525454113696818,0.28256728784336493,0.05052167279052469,0.6130564079520635,1.2420197415637717,0.12416020541461809
+105,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",3.0399543431337617,45.507685290056315,0.2577315783106896,9.604324824686897,0.2579926565262303,1.4239624123096428,0.7152351139600908,0.7511226857218729,3.0980920393541362,5.7179610238388365,0.6067084102526614
+106,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.7248514460953633,7.335391017670978,0.11822584311278549,1.897922089783048,0.14881311360737703,0.2188371462642159,0.18165489977630592,0.2581015111517001,0.5997938750061148,1.5685487431632745,0.2590307529599295
+107,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.8949811236154823,38.77388712577049,0.39664400235416747,10.91218071406124,0.22187170473280954,1.6382229408213231,0.766364480807488,0.7084957603356884,2.6903227231728275,6.368701288027959,0.4088742335312956
+108,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.5350253758622647,7.00220027268242,0.21440657878232833,1.6424566183823364,0.1206616604338029,0.3248347670897305,0.2116120735944502,0.21447427532551028,0.4998734895511914,1.1224472560562029,0.09713196315511897
+109,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",3.0082167574149143,35.664370935860255,0.5086014581018394,11.03595002983019,0.26404039902030163,1.623029506675141,0.6403401555175539,0.658171213787201,2.360297351092534,5.620206816521651,0.6642602500055528
+110,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.29933096825309524,5.872346184472324,0.16687140535015257,3.171725579149487,0.1752625536136791,0.4364883730894602,0.11455462075704502,0.0709467418244422,0.6271025791704823,0.9723789230844881,0.2511421578056269
+111,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.86504153199371,39.447031106573306,0.2829553596770527,9.469496727970425,0.21690078558643672,1.3587838171204663,0.7411528913529015,0.6384587880862713,2.3208833149534684,6.510326737648633,0.6540693667978067
+112,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.4130384265130446,7.565380157966026,0.11444843470354478,1.480213305602323,0.11675277003470107,0.5245730180773244,0.057914668151397244,0.170586828621946,0.9213626022080873,1.3508855782559113,0.16797703915094978
+113,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.2931889769972162,39.74071891938015,0.2754733221271968,12.133792489651894,0.2391873553187887,1.5223359515828438,0.6538890651016973,0.6240778728659677,2.789978171320583,5.6018069733842175,0.5921328991830384
+114,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.5227517809550101,7.432983111062944,0.13061055075746408,2.0761314304408156,0.16942887786861216,0.22777152844075665,0.14780327867375195,0.21149574017285894,0.6695540776017094,1.4232942981798893,0.1357787794383
+115,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.389555596172267,35.90480662234339,0.238568138849559,11.455881913206438,0.2638017632975914,1.6687037634418704,0.7473550823420431,0.5948190813933663,2.5755566152159295,6.554159611475727,0.5325138742230271
+116,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.38517536803989705,7.817222448511671,0.15330277342418763,1.2677183527871634,0.10819231706277553,0.4301788073419761,0.06634377038955663,0.2165192313390447,0.976144954418367,0.8953526791710827,0.1633238956724816
+117,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",2.037826975154947,31.247908961304155,0.3194459169938584,9.837766840861754,0.24768819542926415,1.220480787792583,0.6508131387234417,0.60196974205608,2.631188195775977,5.4743536179290615,0.5658300366919027
+118,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.4411313705708358,6.891113566219126,0.17150413031354503,1.2096701162958727,0.13090079162272297,0.4284201804706219,0.16701511968893604,0.3297249149759988,0.5468416256720546,0.929293505183514,0.10943862630408518
+119,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",2.935125084084741,45.2837074413981,0.3286216105254631,9.161667324662684,0.25174696191195495,1.4144705004039524,0.5496338716424314,0.7604292973917727,2.4248726224478316,6.166869195999425,0.4908345446191724
+120,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.7552901400212131,4.089788190912872,0.09653286705723077,1.1625745550432942,0.08068499436149232,0.2595263657862836,0.20142179981123093,0.24863468767657848,0.45246651749311234,0.5747693374974838,0.14244319840232902
+121,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.596789921331668,38.720258541500705,0.2922893172468632,10.71513157752156,0.3807679555917819,1.5102978090942913,0.6736509248867869,0.6016615608106328,2.8973563187619362,5.646675455144583,0.6900272803252061
+122,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.46000102261370995,7.14760505693562,0.09874358203795564,1.610430375219344,0.0909932913573337,0.5930201908076884,0.1595792057105504,0.16147739686672832,0.8131545960136364,1.047309535075609,0.19728503675462772
+123,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.4471552216675323,41.90211297659111,0.3620521563371327,11.686808073530846,0.22267695744745725,1.5233924385775766,0.6164891681175433,0.47909575958145306,2.6061418329003603,5.344484159461923,0.5669333475097237
+124,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.7560946322655625,10.703063066434641,0.15376025318415312,2.818952404023967,0.1770971434194731,0.32072074315450305,0.10274032115872918,0.01216429405440875,0.19996646339883856,1.1689029140725538,0.11972298540539979
+125,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",2.5810372633972003,38.92275967392818,0.3618557069123402,8.88667299798216,0.22394451433253693,1.2315797457447464,0.6914364720204815,0.6437479868281144,2.430157944533903,6.181645304286825,0.5514637581422253
+126,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 0}, 'FeaturePropagation')",0.4088148518899437,7.57409444736694,0.17156540126833605,1.2970183112338831,0.0862602430636725,0.30450146345470586,0.21359253903843195,0.26043549637032615,0.6881077735085095,1.5505553912796202,0.1993411742870128
+127,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",3.194884825323958,41.570030227416204,0.32470304405823036,10.287329500015103,0.27306526972849876,1.4436461853940985,0.6440639876086107,0.6621300045802643,3.1011645403826837,7.067024326578013,0.5540192713395561
+128,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 1}, 'FeaturePropagation')",0.8775882015626095,7.93028440342608,0.17035169084751742,1.6516658549310248,0.05923477122022481,0.3094534879013998,0.1278879264525412,0.21162172520699032,0.7516505769167872,1.3603895349187745,0.20331560416115632
+129,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",2.543661862432926,40.867736615458554,0.3305337219217594,10.340309690632761,0.22704735610015087,1.1512409115742481,0.6323650603551668,0.46215606841475365,2.434177864548556,6.290744622835121,0.6454962056246749
+130,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 2}, 'FeaturePropagation')",0.6567534981668368,8.492121420339178,0.13912318222255413,1.0912100023405034,0.14345573360529518,0.23565565263502686,0.3069549228829094,0.129391188070144,0.5894191456967087,0.5844029591732385,0.1408679163216601
+131,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",2.3748464425559357,34.25243594653513,0.3958216708311078,10.623708404874353,0.3119909601833041,1.1778592240232282,0.7429728525944408,0.47092096697731456,2.484050923445147,6.539209858116408,0.5588160498439672
+132,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 4}, 'FeaturePropagation')",0.6227613581001832,5.785954116377337,0.18189494431369255,1.529635715048255,0.17658990841656041,0.1934229973383823,0.1370305109352879,0.13421160976505955,0.7054870188273732,1.2057703032552232,0.10544837203791199
+133,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",2.4203161904504453,37.53647377825262,0.3504149044379246,8.94182377177117,0.12508319678332092,1.3056462507100743,0.5765880021824069,0.5046903334649852,2.8031982004093328,6.359144618906393,0.6053390792481407
+134,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'n_iterations': 8}, 'FeaturePropagation')",0.57962911632811,4.952842363154418,0.18154055949781991,2.766829986923819,0.07183139650047883,0.29398841692906996,0.08385961729513063,0.12433060721850579,0.7098550572291298,1.425850459812111,0.1443902508337227
+135,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.7936077960477893,4.607439598937235,1.807616884950535,1.2868990322162455,1.0055149463834763,0.6225927344554648,0.6348389327627724,1.3001603170195086,0.8694907278667531,1.0290141286401016,0.8443325925565348
+136,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.11458843553644571,1.2736791097096283,0.46226125683534147,0.10656706552244646,0.12166969875952874,0.10167783523201863,0.12435598127860373,0.6832679783034384,0.04630906192768423,0.1450336443737435,0.16628384942879476
+137,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.826459289486519,5.00348666394577,1.3840690682432837,1.3306769302708203,1.0101896638408039,0.6751567382029535,0.6151316968142688,1.0754931332094215,1.0090609864139968,1.0304885854544077,0.9558063196331441
+138,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.01}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.07915686899077094,0.5961858238875741,0.38486415690945563,0.11503522787439448,0.15654338905666954,0.06624330448834671,0.1027160455977912,0.1049513854603148,0.5854676374342117,0.16298085209056873,0.22576143899937548
+139,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.8310049365986373,4.056169554848475,1.602472323460401,1.3956051000745107,1.0973689200404155,0.6266266396859506,0.6271086761778724,1.4561771731901505,1.0341221659479702,0.9611877877577628,0.88580248321194
+140,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.14766008466499222,0.29891560590097743,0.21102114600783192,0.17907310472997817,0.11702667776951965,0.07839093323572387,0.08163193769151182,0.26963182484679526,0.750895510037658,0.11509998218361614,0.12253863602495606
+141,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.8764492428258539,4.379129916803661,1.4666634179944285,1.5072900473821853,1.0045424489871224,0.7087802149747655,0.5899949179069373,1.358156818764219,0.7271063102115918,1.013123279192497,0.8068203449813272
+142,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.05}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.18506032756344976,0.6005844975125362,0.2634727709921852,0.147944261156053,0.20303551005282275,0.12412744327517958,0.10447357772233523,0.6658490852834729,0.06536417435143134,0.058984275469360546,0.1743417673404351
+143,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.801942306649922,4.925200640849444,1.4002672668165945,1.398820629436348,1.0854357648890498,0.5979478808919306,0.6591865600481016,1.088039727847501,1.0817794865989432,1.0045748230188967,0.9524818060948516
+144,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.09248008517677042,0.8723086843473922,0.4819815561150372,0.13354744509492825,0.2599243351572721,0.04501145721309071,0.09914796079853413,0.3154144646289788,0.604197235941982,0.04732938092228441,0.11362648918124728
+145,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.8753269580840664,4.20829507665718,1.7728188170160415,1.4863578708590797,0.9388479800880821,0.7549078792910625,0.6020381807308837,1.117154255002985,0.8840175125464045,1.1324018275356473,0.8449539888680061
+146,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.1}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.09593827961225293,0.3135119413346398,0.4058141547581003,0.19093353989255699,0.14744984188685092,0.13132548281857842,0.09870153295607942,0.6385475374085529,0.11340970936421751,0.18844760282692055,0.19404792260701323
+147,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.7860330856917024,4.841874412233226,1.6857931663914076,1.5430511775085258,1.0516498462680255,0.6640443534506716,0.6124730767119042,1.159936378690735,0.7585448166800698,1.1856835457070611,0.9551870540373993
+148,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.1064520702024426,0.8053697718591359,0.3906173008712446,0.2909017098161933,0.10624177871144574,0.04869562224048816,0.06455477486720185,0.6911332737276544,0.1322482022210845,0.20995523675194966,0.049166409112991506
+149,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.8445989618778629,4.1171696623373695,1.7413174528322373,1.5483826123501314,1.3210813119112554,0.6185119539394011,0.6420141113227927,1.027050411910971,1.0495611353212735,1.0363674496287119,0.8602399504073664
+150,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.25}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.1443389943838974,0.51835296259678,0.36894766228013626,0.18700315666618805,0.17344373455895162,0.06551068328611714,0.1099676705273495,0.16414421876322563,0.5726193164596501,0.08498946347405699,0.15127575368627155
+151,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.8387805034265956,4.575646963834719,1.4943056024716481,1.3614007394378898,1.1016020940789613,0.7195349447172722,0.6257391578458094,1.2084200726913297,1.1148156148077837,1.0895067270369507,0.6989390850939514
+152,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'train_epochs': 1, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.02640907699127216,0.4624310812815225,0.33374680918624494,0.26251435480268936,0.1967163491340533,0.08016990680616128,0.0929043179776873,0.275583760291935,0.6044889699691467,0.15145540211714298,0.09007781633160516
+153,mean,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.8272502094042986,4.264216610321649,1.2792982484000803,1.5729750169874275,1.0878170699282175,0.7040482775588763,0.5371190028605952,1.0164277954873697,0.793016340208312,1.158098665610055,0.7701287056017947
+154,std,"({'droprate': 0.1, 'data_cols': ['allinref', 'age', 'charttime', 'time_cluster', 'Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate', 'race_BLACK', 'race_HISPANIC', 'race_UNKNOWN', 'race_WHITE', 'gender_F', 'gender_M'], 'target_cols': ['Potassium', 'Sodium', 'Creatinine', 'Chloride', 'Urea Nitrogen', 'Bicarbonate', 'Anion Gap', 'Glucose', 'Magnesium', 'Calcium, Total', 'Phosphate']}, 'UniformMissing')","({'random_graph': 'erdos_renyi', 'edge_prob': 0.5}, 'RandomInit')","({'train_epochs': 2, 'model': GAEMF(
+  (enc): Encoder(
+    (layers): ModuleList(
+      (0): GCNmfConv(
+        (conv): SimpleConv()
+      )
+      (1): GCNConv(32, 8)
+    )
+  )
+  (dec): Decoder(
+    (layers): ModuleList(
+      (0): Linear(in_features=8, out_features=21, bias=True)
+    )
+  )
+)}, 'GCNmfImputer')",0.0885498347578277,0.5357162565101574,0.2387370671192019,0.1624738984334415,0.2127692059400357,0.05588756725025004,0.12461943887079249,0.31591362372462267,0.05530527146539573,0.08941719136263959,0.19160946885863442
