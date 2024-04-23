@@ -1,5 +1,7 @@
 import numpy as np
 from pandas import DataFrame, qcut
+import matplotlib.pyplot as plt
+# from torch_geometric import to_torch_coo_tensor, to_torch_csr_tensor
 
 def wrong_arguments_display(func):
     def wrap(self, *args, **kwargs):
@@ -16,6 +18,36 @@ def wrong_arguments_display(func):
         finally:
             return res
     return wrap
+"""
+===========================================================
+    Visualization
+"""
+
+def plot_losses(losses):
+    for phase in ['train', 'val']:
+        plt.plot(losses[phase], label=phase)
+    plt.legend()
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.show()
+
+"""
+===========================================================
+    Transforms
+"""
+
+
+def columns_str2int(data, target_cols):
+    res = []
+    if hasattr(data, 'columns'):
+        m = data.columns.to_list()
+    elif isinstance(data, list):
+        m = data
+    else:
+        raise TypeError('data parameter need to be a list of columns or a dataframe')
+    for col in target_cols:
+        res.append(m.index(col))
+    return res
 
 def discretize_by_div(x: np.array, df):
     return (x // df) * df
@@ -37,9 +69,13 @@ def get_groups(data, col_inds, discretize_func=None, cols2disc=None, **disc_kwar
     for _, gr in groups:
         yield gr['index'].values
 
-    
-    
+
+"""
+===========================================================
+    Exceptions
+"""
 class NotFittedError(Exception):
     def __init__(self, type_, *args: object) -> None:
         super().__init__(*args)
         self.args = (f'Object of {type_} has not been fitted',)
+

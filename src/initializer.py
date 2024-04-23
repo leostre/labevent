@@ -61,7 +61,7 @@ class BaseInitializer:
             self._weights = torch.ones((len(self._adjlist),))
 
         return Data(
-            x=torch.Tensor(self.data, device=self.device),
+            x=torch.tensor(self.data, device=self.device),
             edge_index=self._adjlist.to(self.device),
             edge_attr=self._weights.to(self.device)
         )

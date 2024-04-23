@@ -27,7 +27,7 @@ class FeaturePropagation(torch.nn.Module):
         super(FeaturePropagation, self).__init__()
         self.num_iterations = num_iterations
 
-    def propagate(self, x: Tensor, edge_index, mask: Tensor) -> Tensor:
+    def forward(self, x: Tensor, edge_index, mask: Tensor) -> Tensor:
         # out is inizialized to 0 for missing values. However, its initialization does not matter for the final
         # value at convergence
         out = x

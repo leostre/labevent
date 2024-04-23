@@ -4,7 +4,7 @@ from torch import tensor
 from misc import columns_str2int
 
 class BaseMissingSampler:
-    def __init__(self, droprate, shape=None, target_cols=None, random_state=None, data_columns=None):
+    def __init__(self, droprate, shape=None, target_cols=None, random_state=None, data_cols=None):
         assert 0 <= droprate <= 1, 'Droprate is within [0, 1] range!'
         self.path = None
         self._mask = None
@@ -12,7 +12,7 @@ class BaseMissingSampler:
         self._shape = shape
         self._done = False
         self.droprate = droprate
-        self.data_columns = data_columns
+        self.data_columns = data_cols
         self.target_cols = target_cols
         self._target_cols_ind = columns_str2int(self.data_columns, target_cols)
 
@@ -26,7 +26,7 @@ class BaseMissingSampler:
         self._shape = data.shape # extend for .size
         self._done = True
         self.generate_mask(self._shape)
-        X = data.copy() if not inplace else data
+        X = np.copy(data) if not inplace else data
         X[self._mask] = fill_value
 
         if add_indicator:
