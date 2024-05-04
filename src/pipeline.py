@@ -48,7 +48,7 @@ class Preprocessor():
         self._sampler = sampler #UniformMissing(droprate, target_columns, data_columns=data_columns)
         self._initializer = initializer
 
-    def run(self, data, graph_repr='edgelist', dtype=float32, fill_value=0):
+    def run(self, data, graph_repr='edgelist', dtype=float32, fill_value=0):            
         dropped = self._sampler.drop(data, fill_value)
         mask = self._sampler.to_tensor()
         dropped = tensor(self._scaler.fit_transform(dropped) if self._scaler is not None else dropped, dtype=dtype)
