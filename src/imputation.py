@@ -196,10 +196,11 @@ def train(model, dataloaders, criterion, opt, sch, num_epochs, verbose=True):
     return losses
 
 class GCNmfImputer(nn.Module):
-    def __init__(self, model, train_epochs=2):
+    def __init__(self, model, train_epochs=2, lr=0.01):
         super().__init__()
         self.model = model
         self.train_epochs = train_epochs
+        self.lr = lr
 
     def __train(self, dataloader, criterion, opt, sch, num_epochs, verbose=True):
         losses = []
@@ -225,7 +226,7 @@ class GCNmfImputer(nn.Module):
         if not pretrained:
             nneighbors = nneighbors if nneighbors is not None else [6, 6]
             criterion = nn.MSELoss()
-            opt = torch.optim.Adam(self.model.parameters(), lr=0.005)
+            opt = torch.optim.Adam(self.model.parameters(), lr=self.lr)
             dataloader = NeighborLoader(Data(x, edges), num_neighbors=nneighbors, batch_size=24)
             self.__train( 
                   dataloader,

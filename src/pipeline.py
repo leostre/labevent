@@ -10,13 +10,14 @@ from sklearn.preprocessing import RobustScaler
 class Pipeline:    
     def __init__(self, preprocessor,
                  imputer,
-                 criterion) -> None:
+                 criterion, to_device='cpu') -> None:
         self.preprocessor = preprocessor
         self.imputer = imputer
         self._modules = {}
         self.loss_func = criterion
         self._imputer = None
         self.edge_list = None
+        self.device = to_device
     
 
     def reset(self):
@@ -24,9 +25,9 @@ class Pipeline:
             if hasattr(module, 'reset'):
                 module.reset()
 
-    def _eval(self, data):
+    def _eval(self, data: DataFrame):
         dropped, struct, mask = self.preprocessor.run(data, 'edgelist')
-        data = tensor(self.preprocessor._scaler.transform(data))
+        data = tensor(self.preprocessor._scaler.transform(data), device=self.device)
         imputed = self.imputer(dropped, struct, mask)
         loss = self.loss_func(imputed, data, mask)
         return loss
@@ -34,24 +35,25 @@ class Pipeline:
 
     def eval(self, data, n_trials,):
         losses = []
-        data = tensor(data.to_numpy())
-        for trial in tqdm(range(n_trials), leave=False, desc='Trial: '):  
-            losses.append(self._eval(data))
+        for trial in tqdm(range(n_trials), leave=False, desc='Trial: '):
+            data = tensor(data.to_numpy()).to(self.device)
+            losses.append(self._eval(data).item())
         return losses
     
 class Preprocessor():
     def __init__(self, sampler,
                  initializer,
-                 scale=True):
+                 scale=True, device='cpu'):
         super().__init__()
         self._scaler = RobustScaler() if scale else None
         self._sampler = sampler #UniformMissing(droprate, target_columns, data_columns=data_columns)
         self._initializer = initializer
+        self.device = device
 
     def run(self, data, graph_repr='edgelist', dtype=float32, fill_value=0):            
         dropped = self._sampler.drop(data, fill_value)
-        mask = self._sampler.to_tensor()
-        dropped = tensor(self._scaler.fit_transform(dropped) if self._scaler is not None else dropped, dtype=dtype)
-        struct = getattr(self._initializer(dropped), graph_repr)
+        mask = self._sampler.to_tensor().to(self.device)
+        dropped = tensor(self._scaler.fit_transform(dropped) if self._scaler is not None else dropped, dtype=dtype).to(self.device)
+        struct = getattr(self._initializer(dropped), graph_repr).to(self.device)
 
         return dropped, struct, mask
