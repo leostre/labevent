@@ -12,7 +12,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.mixture import GaussianMixture
 from torch.nn.parameter import Parameter
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 class PassThroughImputer(nn.Module):
     def forward(self, x, edges, mask):
