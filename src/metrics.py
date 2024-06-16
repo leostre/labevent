@@ -4,6 +4,7 @@ from torchmetrics.regression import MeanAbsolutePercentageError
 from torchmetrics.functional import mean_absolute_percentage_error
 
 class SeparableMAPE(Separable, MeanAbsolutePercentageError):
+    greater_is_better = False
     def _logic(self, input, target, mask):
         input, target = input * mask, target * mask
         errors = (target - input).abs_()
@@ -15,5 +16,7 @@ class SeparableMAPE(Separable, MeanAbsolutePercentageError):
         out = super().forward(input, target, mask)
         out[torch.isnan(out)]  = 0
         return out
+    
+
     
     

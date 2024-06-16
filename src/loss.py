@@ -3,6 +3,8 @@ import torch
 from misc import columns_str2int
 
 class Separable(nn.Module):
+    greater_is_better = False
+
     def __init__(self, sep=True, target_cols_ind=None, agg=None):
         super().__init__()
         self.sep = sep
@@ -27,6 +29,8 @@ class Separable(nn.Module):
 
 
 class SeparableMSE(Separable, nn.MSELoss):
+    greater_is_better = False
+
     def __init__(self, sep=True, target_columns=None, agg=None):
         super().__init__()
         self.sep = sep
@@ -56,6 +60,8 @@ class SeparableMSE(Separable, nn.MSELoss):
 
 
 class SeparableRMSE(SeparableMSE):
+    greater_is_better = False
+
     def __init__(self, sep=True, target_columns=None, agg=None):
         super().__init__()
 

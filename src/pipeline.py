@@ -7,7 +7,7 @@ from tqdm import tqdm
 from torch import tensor, float32, cuda
 from sklearn.preprocessing import RobustScaler
 
-DEVICE = 'gpu' if cuda.is_available() else 'cpu'
+DEVICE = 'cuda' if cuda.is_available() else 'cpu'
 
 class Pipeline:    
     def __init__(self, preprocessor,
@@ -32,9 +32,10 @@ class Pipeline:
         data = tensor(self.preprocessor._scaler.transform(
             data.cpu().numpy() if hasattr(data, 'cpu') else data
         )).to(self.device)
+        mask = mask.to(self.device)
         imputed = self.imputer(dropped.to(self.device), 
                                struct.to(self.device),
-                               mask.to(self.device))
+                               mask.to(self.device)).to(self.device)
         loss = self.loss_func(imputed, data, mask)
         return loss
 

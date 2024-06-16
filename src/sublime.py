@@ -14,7 +14,7 @@ CONFIG = {
     'gsl_mode': 'structure_refinement', #['structure_inference', 'structure_refinement']
     'eval_freq': 5,
     'downstream_task': 'classification', #['classification', 'clustering'],
-    'gpu': -1,
+    'gpu': 0,
     'train_size': 0.7,
     'seed': 2104,
     #GCL Module
@@ -50,7 +50,7 @@ CONFIG = {
     'tau': 1,
     'c': 0,
 }  
-DEVICE = 'gpu' if torch.cuda.is_available() else 'cpu' 
+DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu' 
 
 
 
@@ -63,9 +63,12 @@ class SublimeModule(nn.Module):
         """
         super().__init__()
         config = config if config is not None else CONFIG
-        args = namedtuple('args', config.keys())
+        config_ = {}
+        config_.update(CONFIG)
+        config_.update(config)
+        args = namedtuple('args', config_.keys())
 
-        self.args = args(**config)
+        self.args = args(**config_)
         self.experiment = Experiment(self.args)
 
     @property
@@ -89,8 +92,8 @@ class SublimeModule(nn.Module):
         test_mask[test] = True
         return train_mask, val_mask, test_mask
  
-    def forward(self, features, edges, edges_weights=None, mask=None, label_col=-1):
-        labels = features[:, label_col]
+    def forward(self, features, edges=None, adj=None, edges_weights=None, mask=None, label_col=-1):
+        labels = features[:, label_col].long()
         nfeats = features.size(1)
         feat_mask = torch.ones((nfeats,)).bool()
         # feat_mask[label_col] = False
@@ -98,7 +101,10 @@ class SublimeModule(nn.Module):
         # labels = (labels == 1).nonzero()[:, 1]
         nclasses = labels.unique().size(0)
         n = features.size(0)
-        orig_adj  = torch_sparse_to_dgl_graph(to_torch_coo_tensor(edges, edge_attr=edges_weights))
+        if edges is not None:
+            orig_adj  = (to_torch_coo_tensor(edges, edge_attr=edges_weights, size=n))
+        else:
+            orig_adj = adj
         
         return self.experiment.train(
             self.args,

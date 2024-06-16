@@ -12,7 +12,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.mixture import GaussianMixture
 from torch.nn.parameter import Parameter
 
-# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 class PassThroughImputer(nn.Module):
     def forward(self, x, edges, mask):
@@ -30,13 +30,15 @@ def ex_relu(mu, sigma):
 
 
 def init_gmm(features, n_components):
+    if hasattr(features, 'detach'):
+      features = features.detach().cpu()
     imp = SimpleImputer(missing_values=np.nan, strategy='mean')
     init_x = imp.fit_transform(features)
     gmm = GaussianMixture(n_components=n_components, covariance_type='diag').fit(init_x)
     return gmm
 
 class GCNmfConv(nn.Module):
-    def __init__(self, in_features, out_features, n_components, dropout, bias=True):
+    def __init__(self, in_features, out_features, n_components, dropout, bias=True, device=None):
         super(GCNmfConv, self).__init__()
         self.in_features = in_features
         self.out_features = out_features
@@ -52,15 +54,16 @@ class GCNmfConv(nn.Module):
             self.bias = Parameter(torch.FloatTensor(out_features))
         else:
             self.register_parameter('bias', None)
+        self.device = device or DEVICE
     
     def reset_parameters(self, X):
         nn.init.xavier_uniform_(self.weight.data, gain=1.414)
         if self.bias is not None:
             self.bias.data.fill_(0)
         self.gmm = init_gmm(X, self.n_components) # impute mean values with simple imputer
-        self.logp.data = torch.FloatTensor(np.log(self.gmm.weights_)).to(device)
-        self.means.data = torch.FloatTensor(self.gmm.means_).to(device)
-        self.logvars.data = torch.FloatTensor(np.log(self.gmm.covariances_)).to(device)
+        self.logp.data = torch.FloatTensor(np.log(self.gmm.weights_)).to(self.device)
+        self.means.data = torch.FloatTensor(self.gmm.means_).to(self.device)
+        self.logvars.data = torch.FloatTensor(np.log(self.gmm.covariances_)).to(self.device)
 
     def calc_responsibility(self, mean_mat, variances):
         dim = self.in_features
@@ -81,7 +84,7 @@ class GCNmfConv(nn.Module):
         mean_mat = torch.where(x_isnan, self.means.repeat(x.size(0), 1, 1).permute(1, 0, 2), x_imp)
         var_mat = torch.where(x_isnan,
                               variances.repeat(x.size(0), 1, 1).permute(1, 0, 2),
-                              torch.zeros(x_isnan.size(), device=device, requires_grad=True))
+                              torch.zeros(x_isnan.size(), device=self.device, requires_grad=True))
         # dropout
         dropmat = F.dropout(torch.ones_like(mean_mat), self.dropout, training=self.training)
         mean_mat = mean_mat * dropmat
